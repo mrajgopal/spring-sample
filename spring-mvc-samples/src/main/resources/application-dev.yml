@@ -1,0 +1,8 @@
+server:
+    port: 8090
+    context-path: /techie
+    
+spring:
+   datasource:
+       driverClassName: com.mongodb.Mongo
+       url: mongodb://localhost:27017/test
